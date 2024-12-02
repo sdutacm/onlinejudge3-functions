@@ -1,4 +1,4 @@
-# onlinejudge-functions
+# onlinejudge3-functions
 
 Online Judge 3 云函数仓库。
 
