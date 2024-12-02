@@ -1,0 +1,24 @@
+{
+  "name": "onlinejudge3-functions",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Online Judge 3 云函数",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdutacm/onlinejudge3-functions.git"
+  },
+  "keywords": [],
+  "author": "bLue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdutacm/onlinejudge3-functions/issues"
+  },
+  "homepage": "https://github.com/sdutacm/onlinejudge3-functions#readme",
+  "devDependencies": {
+    "serverless-cloud-framework": "^1.2.0"
+  }
+}
