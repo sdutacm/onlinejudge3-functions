@@ -107,9 +107,7 @@ async function getUserASProblems() {
     );
     const userIds = result.map((r) => r.user_id);
     logger.info(
-      `[getUserASProblems] solutions: [${
-        lastSolutionId + 1
-      }, ${newLastSolutionId}], submitted users: ${userIds.length}`,
+      `[getUserASProblems] solutions range: (${lastSolutionId}, ${newLastSolutionId}], submitted users: ${userIds.length}`,
     );
 
     const queueTasks = [];
@@ -190,6 +188,7 @@ async function getUserASProblems() {
       _updatedAt: _start,
     });
 
+    logger.info(`[getUserASProblems] tasks count: ${queueTasks.length}, updated runInfo:`, runInfo);
     logger.info(`[getUserASProblems.done] ${Date.now() - _start}ms`);
     return result;
   } catch (e) {
