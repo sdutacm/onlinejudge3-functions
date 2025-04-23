@@ -6,3 +6,4 @@ node_modules
 /configs/*.prod.js
 /temp
 .env
+serverless.yml
