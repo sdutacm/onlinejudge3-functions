@@ -9,5 +9,15 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bluebird": "^3.7.2",
+    "fs-extra": "^8.1.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "mysql2": "^2.1.0",
+    "promise-queue": "^2.2.5",
+    "redis": "^2.8.0"
+  }
 }
